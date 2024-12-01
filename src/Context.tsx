@@ -113,7 +113,7 @@ const todosReducer = (state: TodosState, action: TodosAction): TodosState => {
       break;
     }
     default: {
-      const _action: never = action.type;
+      const _action: never = action;
       console.log(_action);
       throw new Error('Invalid Action Type');
     }

@@ -1,8 +1,7 @@
 import { Todo } from '../types';
 import trash from '../images/trash.png';
-import checked from '../images/';
 import { useTodosDispatch } from '../Context';
-import { deleteTodo, markTodoCompleted, toggleTodoCompleted } from '../dbAPI';
+import { deleteTodo, toggleTodoCompleted } from '../dbAPI';
 
 interface TableRowsProps {
   todos: Array<Todo>;

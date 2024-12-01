@@ -10,7 +10,7 @@ export default function MainContent() {
     event.preventDefault();
     event.stopPropagation();
 
-    todosDispatch({ type: 'SHOW_FORM_MODAL' });
+    todosDispatch({ type: 'SHOW_FORM_MODAL', payload: null });
   };
 
   return (
